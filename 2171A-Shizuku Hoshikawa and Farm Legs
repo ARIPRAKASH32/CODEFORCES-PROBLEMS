@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int l;
+    cin >> l;
+    
+    while(l--){
+        int n;
+        cin >> n;
+        
+        if (n % 2 == 1) {
+            cout << 0 << "\n";
+            continue;
+        }
+        
+        int m= n/2;
+        
+        cout<< m/2+1 << "\n" ;
+        
+    }
+    return 0;
+}
